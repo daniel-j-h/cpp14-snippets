@@ -31,5 +31,5 @@ Note: feel free to help out, search for "TODO"
 
 Warning: not a complete list of changes (yet) -- work in progress.
 
-Here's my [C++11 edition](https://github.com/daniel-j-h/cpp11-snippets).
-But keep in mind: the C++11 edition is from two years ago as I was still learning C++11 and not really maintained anymore.
+Here's my [C++11 edition](https://github.com/daniel-j-h/cpp11-snippets).  
+But keep in mind: the C++11 edition is from two years ago as I was still learning C++11. And it's not really maintained anymore.
