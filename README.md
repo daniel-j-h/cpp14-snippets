@@ -14,23 +14,26 @@ Source for the references is the free [N3936](https://raw.githubusercontent.com/
 Note: feel free to help out, search for "TODO"
 
 
-|                    File                 |       Reference       |                                Description                           |
-| --------------------------------------- | --------------------- | -------------------------------------------------------------------- |
-| [literals.cc](literals.cc)              |          tbd          | string literals, binary literals, digit separator                    |
-| [lambda.cc](lambda.cc)                  |          tbd          | generic lambdas, lambda captures                                     |
-| [inference.cc](inference.cc)            |          tbd          | return type inference                                                |
-| [iterator.cc](iterator.cc)              |          tbd          | cbegin, cend                                                         |
-| [constexpr.cc](constexpr.cc)            |          tbd          | relaxed constexpr restrictions, const constexpr                      |
-| [make_unique.cc](make_unique.cc)        |          tbd          | make\_unique                                                         |
-| [tuple.cc](tuple.cc)                    |          tbd          | get<T>                                                               |
-| [attributes.cc](attributes.cc)          |          tbd          | deprecated attribute                                                 |
-| [quoted.cc](quoted.cc)                  |          tbd          | quoted                                                               |
-| [exchange.cc](exchange.cc)              |          tbd          | exchange                                                             |
-| [sequence.cc](sequence.cc)              |          tbd          | integer\_sequence                                                    |
-| [functors.cc](functors.cc)              |          tbd          | type deduction for greater<> et al.                                  |
-| [range.cc](range.cc)                    |          tbd          | range overloads for equal, mismatch, is\_permutation                 |
+|                       File                     |       Reference       |                             Description                         |
+| ---------------------------------------------- | --------------------- | --------------------------------------------------------------- |
+| [literals.cc](literals.cc)                     |          tbd          | string literals, binary literals, digit separator               |
+| [lambda.cc](lambda.cc)                         |          tbd          | generic lambdas, lambda captures                                |
+| [inference.cc](inference.cc)                   |          tbd          | return type inference                                           |
+| [iterator.cc](iterator.cc)                     |          tbd          | cbegin, cend                                                    |
+| [constexpr.cc](constexpr.cc)                   |          tbd          | relaxed constexpr restrictions, const constexpr                 |
+| [make_unique.cc](make_unique.cc)               |          tbd          | make\_unique                                                    |
+| [tuple.cc](tuple.cc)                           |          tbd          | get<T>                                                          |
+| [attributes.cc](attributes.cc)                 |          tbd          | deprecated attribute                                            |
+| [quoted.cc](quoted.cc)                         |          tbd          | quoted                                                          |
+| [exchange.cc](exchange.cc)                     |          tbd          | exchange                                                        |
+| [sequence.cc](sequence.cc)                     |          tbd          | integer\_sequence                                               |
+| [functors.cc](functors.cc)                     |          tbd          | type deduction for greater<> et al.                             |
+| [range.cc](range.cc)                           |          tbd          | range overloads for equal, mismatch, is\_permutation            |
+| [variable_template.cc](variable_template.cc)   |          tbd          | templated variables                                             |
+| [initialization.cc](initialization.cc)         |          tbd          | aggregate initialization, brace elision                         |
+| [traits.cc](traits.cc)                         |          tbd          | aliases for trait's ::type, e.g. is\_same\_t                    |
 
 Warning: not a complete list of changes (yet) -- work in progress.
 
-Here's my [C++11 edition](https://github.com/daniel-j-h/cpp11-snippets).  
+Here's my [C++11 edition](https://github.com/daniel-j-h/cpp11-snippets).
 But keep in mind: the C++11 edition is from two years ago as I was still learning C++11. And it's not really maintained anymore.

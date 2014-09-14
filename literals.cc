@@ -15,7 +15,7 @@ int main() {
   assert(( std::is_same<decltype("Hello"s), std::string>() ));
 
 
-  // same for chrono literals
+  // or use the inlined namespace
   using namespace std::literals::chrono_literals;
 
   auto sec = 1s;
