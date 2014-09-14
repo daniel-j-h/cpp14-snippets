@@ -28,6 +28,7 @@ Note: feel free to help out, search for "TODO"
 | [exchange.cc](exchange.cc)              |          tbd          | exchange                                                             |
 | [sequence.cc](sequence.cc)              |          tbd          | integer\_sequence                                                    |
 | [functors.cc](functors.cc)              |          tbd          | type deduction for greater<> et al.                                  |
+| [range.cc](range.cc)                    |          tbd          | range overloads for equal, mismatch, is\_permutation                 |
 
 Warning: not a complete list of changes (yet) -- work in progress.
 
