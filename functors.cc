@@ -16,7 +16,7 @@ int main() {
 
   // no need to write std::greater<std::string>{}
   std::nth_element(std::begin(svec), second, std::end(svec), std::greater<>{});
-  assert(*second == "xxx"); // second largest element is xx
+  assert(*second == "xxx"); // second largest element is xxx
 
   // see: http://en.cppreference.com/w/cpp/utility/functional#Function_objects
 

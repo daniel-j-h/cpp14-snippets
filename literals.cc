@@ -6,7 +6,7 @@
 int main() {
 
   // unfortunately literals have their own namespaces
-  using namespace std::literals::string_literals;
+  using namespace std::literals;
 
   // std::string literal
   auto s = "Hello"s;
